@@ -34,7 +34,6 @@ export class HospitalService {
     })
    }
 
-
   getPlasmaReceiverDetails(): Observable<any> {
     return this.http.get(this.plasma_reciver_URL);
   }
